@@ -76,7 +76,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test.c" />
     <ClCompile Include="WordCount.c" />
   </ItemGroup>
   <ItemGroup>
