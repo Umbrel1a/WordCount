@@ -2,13 +2,11 @@
 #include<string.h>
 #include<stdlib.h>
 int main(int   argc,char*  argv[]){
-	char mode;
-	char path[1024]={0};
 	char log[1024]={0};
 	char p;
-	
+
 	int i=0;//×Ö·ûÊý
-	
+
 	int j=0;
 	int flag=1;
 	int w_num=0;
@@ -19,7 +17,6 @@ int main(int   argc,char*  argv[]){
 	}
 	while(1){
 		if(EOF==fscanf(fp,"%c",&p))
-
 			break;
 		log[i]=p;
 		i++;
@@ -37,11 +34,11 @@ int main(int   argc,char*  argv[]){
 			}
 			else if(log[j]==' '||log[j]==','){
 				flag=1;
-				}
+			}
 		}
 		printf("µ¥´ÊÊý:%d\n",w_num);
 	}
 	fclose(fp);
 	system("pause");
 }
-	
+
