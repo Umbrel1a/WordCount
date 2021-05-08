@@ -21,10 +21,10 @@ int main(int   argc,char*  argv[]){
 		log[i]=p;
 		i++;
 	}
-	if(strcmp(argv[1],"-c")){//99为C的ASCII码
+	if(strcmp(argv[1],"-c")){
 		printf("字符数:%d\n",i);
 	}
-	else if(argv[2],"-w"){//119为w的ASCII码
+	else if(strcmp(argv[1],"-w")){
 		for(j=0;log[j]!='\0';j++){
 			if(flag==1){
 				if(log[j]!=' '){
